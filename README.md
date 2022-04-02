@@ -38,11 +38,13 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough (GIF)
 
-If you recorded multiple GIFs for all the implemented features, you can add them here:
+
 Original walkthrough+Playback Speeds up on each turn
+
 ![](http://g.recordit.co/EX2njd9Fyk.gif)
 
 Different patterns + 3 mistakes allowed
+
 ![](http://g.recordit.co/H0JBOWCQif.gif)
 
 ## Reflection Questions
