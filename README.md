@@ -39,24 +39,29 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
+Original walkthrough+Playback Speeds up on each turn
+![](http://g.recordit.co/EX2njd9Fyk.gif)
 
-![Original walkthrough+Playback Speeds up on each turn](http://g.recordit.co/EX2njd9Fyk.gif)
-
-![Different patterns + 3 mistakes allowed](http://g.recordit.co/H0JBOWCQif.gif)
+Different patterns + 3 mistakes allowed
+![](http://g.recordit.co/H0JBOWCQif.gif)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[I used the MDN web docs in order to refresh on using Math.random]
+
+I used the MDN web docs in order to refresh on using Math.random
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[One challenge I encountered was when trying to implement the randomized submissions. I had forgotten how to use Math.random and also wasn't really sure how I was going to randomize the submissions everytime. What I decided to do, was to start with Math.random, look up how it works, and this gave me a good start to adding the feature. Then I considered what I needed to do in order to randomize the patterns, find random numbers between 1 and 6 (the number of buttons) and then put those numbers into the pattern array. Now I needed to decide how many numbers I actually wanted there to be in the patterns, and I decided that 8 was a good number. Using these two ideas, I decided to use a for loop that iterated 8 times, and in the for loop I would calculate the random number and put it into the array at that index. For iteration 1, the first element would go into Pattern[0] and so on. In the development of this feature, it was crucial for me to look at what we are trying to accomplish and then find what I needed to do do acccomplish that goal, and slowly put each piece together. That is how I overcome challenges I find in programming.]
+
+One challenge I encountered was when trying to implement the randomized submissions. I had forgotten how to use Math.random and also wasn't really sure how I was going to randomize the submissions everytime. What I decided to do, was to start with Math.random, look up how it works, and this gave me a good start to adding the feature. Then I considered what I needed to do in order to randomize the patterns, find random numbers between 1 and 6 (the number of buttons) and then put those numbers into the pattern array. Now I needed to decide how many numbers I actually wanted there to be in the patterns, and I decided that 8 was a good number. Using these two ideas, I decided to use a for loop that iterated 8 times, and in the for loop I would calculate the random number and put it into the array at that index. For iteration 1, the first element would go into Pattern[0] and so on. In the development of this feature, it was crucial for me to look at what we are trying to accomplish and then find what I needed to do do acccomplish that goal, and slowly put each piece together. That is how I overcome challenges I find in programming.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[Even though the marker gets pushed back quickly as technology develops, I’m interested in knowing the limitations we have in web development. What are some features that just can’t be implemented? Which ones are going to be available in the near future? What is it that drives forward these innovations, and gets the boundaries pushed back even further? How can I become a part of these innovations? 
-I'm also wondering what can actually be down with web development. Whenever I think of web development, I instantly think of websites. What does web development actually mean generally, and what topics does it encompass? What are other applications of web development that are building websites?]
+
+Even though the marker gets pushed back quickly as technology develops, I’m interested in knowing the limitations we have in web development. What are some features that just can’t be implemented? Which ones are going to be available in the near future? What is it that drives forward these innovations, and gets the boundaries pushed back even further? How can I become a part of these innovations? 
+I'm also wondering what can actually be down with web development. Whenever I think of web development, I instantly think of websites. What does web development actually mean generally, and what topics does it encompass? What are other applications of web development that are building websites?
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[If I had a couple more hours, I would implement the last two optional features, by changing the buttons to each represent a different animal when clicked on, and also output the sound that the animal makes. Apart from this, I would clean up the code, removing all the excess lines we don’t need (provided by glitch at the start), and restructure the code into clearer sections to improve readability. Also, I would give the game a continue option upon winning, if the user decides to keep playing, either the size of the pattern increases, the speed of the clues increases, or both increase in the same round. With this increase in difficulty, I would try to implement a point system and an online leaderboard. As the user plays more difficult levels, they get more points on completion, and there would be a leaderboard of all the players usernames and their points. This would mean implementing a database to store all of this data.]
+
+If I had a couple more hours, I would implement the last two optional features, by changing the buttons to each represent a different animal when clicked on, and also output the sound that the animal makes. Apart from this, I would clean up the code, removing all the excess lines we don’t need (provided by glitch at the start), and restructure the code into clearer sections to improve readability. Also, I would give the game a continue option upon winning, if the user decides to keep playing, either the size of the pattern increases, the speed of the clues increases, or both increase in the same round. With this increase in difficulty, I would try to implement a point system and an online leaderboard. As the user plays more difficult levels, they get more points on completion, and there would be a leaderboard of all the players usernames and their points. This would mean implementing a database to store all of this data.
 
 
 
